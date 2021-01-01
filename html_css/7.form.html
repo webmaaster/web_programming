@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: crimson;
+            color: black;
+            margin: 100px;
+            padding: 50px;
+            border: 1px yellow solid;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form is a very important part of any web application</h1>
+    <form action="">
+        <input type="text" placeholder="full name" name="full_name">
+        <input type="submit">
+    </form>
+
+    <h2>Let's see some more forms below:</h2>
+
+    <div>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="password" name="password" placeholder="password">
+    </div>
+
+    <h3>Favorite programming languages:</h3>
+    <div>
+        <input type="radio" name="fav-course" value="python">python
+        <input type="radio" name="fav-course" value="ruby">Ruby 
+        <input type="radio" name="fav-course" value="javascript">Javascript
+        <input type="radio" name="fav-course" value="java">Java
+
+    </div>
+
+    <h3>Options</h3>
+    <div>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+            <option value="Africa">
+            <option value="Bangladesh">
+            <option value="Canada">
+            <option value="Duch">
+            <option value="Europe">
+            <option value="United Kingdom">
+            <option value="United Arab Emirates">
+            <option value="United States of America">
+
+        </datalist>
+    </div>
+    
+</body>
+</html>
